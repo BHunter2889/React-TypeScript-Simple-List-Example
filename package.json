@@ -6,7 +6,6 @@
   "repository": "git@github.com:BHunter2889/React-TypeScript-Simple-List-Example.git",
   "author": "Brandon Hunter <brandon@fourty-two.dev>",
   "license": "MIT",
-  "private": false,
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
@@ -34,5 +33,6 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
-  }
+  },
+  "packageManager": "yarn@4.0.1"
 }
