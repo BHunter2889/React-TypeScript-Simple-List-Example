@@ -43,7 +43,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.22.0, @babel/core@npm:^7.22.9, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.22.0, @babel/core@npm:^7.22.9, @babel/core@npm:^7.23.2, @babel/core@npm:^7.7.5":
   version: 7.23.2
   resolution: "@babel/core@npm:7.23.2"
   dependencies:
@@ -5113,7 +5113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.0.0":
+"@types/babel__core@npm:^7, @types/babel__core@npm:^7.0.0":
   version: 7.20.3
   resolution: "@types/babel__core@npm:7.20.3"
   dependencies:
@@ -5761,6 +5761,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "React-Typescript-Simple-List-Example@workspace:."
   dependencies:
+    "@babel/core": "npm:^7.23.2"
     "@babel/preset-env": "npm:^7.23.2"
     "@babel/preset-react": "npm:^7.22.15"
     "@chakra-ui/react": "npm:^2.8.1"
@@ -5774,6 +5775,7 @@ __metadata:
     "@storybook/react": "npm:^7.5.2"
     "@storybook/react-webpack5": "npm:^7.5.2"
     "@storybook/testing-library": "npm:^0.2.2"
+    "@types/babel__core": "npm:^7"
     "@types/react": "npm:^18.2.33"
     "@types/react-dom": "npm:^18.2.14"
     framer-motion: "npm:^10.16.4"
