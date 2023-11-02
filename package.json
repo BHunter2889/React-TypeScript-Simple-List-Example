@@ -14,12 +14,17 @@
     "@types/react-dom": "^18.2.14",
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
+    "@chakra-ui/anatomy": "^2.2.1",
+    "@chakra-ui/styled-system": "^2.9.1",
+    "@chakra-ui/theme-tools": "^2.1.1",
     "@storybook/addon-essentials": "^7.5.2",
     "@storybook/addon-interactions": "^7.5.2",
     "@storybook/addon-links": "^7.5.2",
@@ -29,6 +34,7 @@
     "@storybook/react-webpack5": "^7.5.2",
     "@storybook/testing-library": "^0.2.2",
     "@types/babel__core": "^7",
+    "@types/node": "^20.8.10",
     "prop-types": "^15.8.1",
     "storybook": "^7.5.2"
   },

@@ -11,4 +11,4 @@ const repoMapper = (response: SearchReposResponse): Repo[] => {
     )
 }
 
-export {repoMapper};
+export { repoMapper };

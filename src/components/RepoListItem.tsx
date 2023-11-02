@@ -1,13 +1,24 @@
-import React from 'react';
-import { Repo } from '../types/graphql';
+import React, { ReactNode } from 'react';
+import { ListItem, useStyleConfig } from '@chakra-ui/react';
+import colors from '../ds/theme/foundations/colors';
+import space from '../ds/theme/foundations/spacing';
 
 // TODO - styling
-const RepoListItem = ({name, description, branchCount }: Repo) => (
-    <li className="repo-list-item">
-      <h3>{ name }</h3>
-      { description && <p>{description}</p> }
-      <p> { branchCount } Branches</p>
-    </li>
-);
+export default function RepoListItem({ children, backgroundColor, color }: RepoListItemProps) {
+    // const style = useStyleConfig('List')
+    return (
+        <ListItem 
+        // sx={style} 
+        backgroundColor={backgroundColor}
+        color={color}
+        >
+            {children}
+        </ListItem>
+    );
+}
 
-export default RepoListItem;
+type RepoListItemProps = {
+    children: ReactNode,
+    backgroundColor: string,
+    color: string | undefined,
+}

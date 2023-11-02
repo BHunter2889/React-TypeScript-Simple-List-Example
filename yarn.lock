@@ -1436,7 +1436,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.13.0":
+"@babel/preset-typescript@npm:^7.13.0, @babel/preset-typescript@npm:^7.23.2":
   version: 7.23.2
   resolution: "@babel/preset-typescript@npm:7.23.2"
   dependencies:
@@ -1570,7 +1570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/anatomy@npm:2.2.1":
+"@chakra-ui/anatomy@npm:2.2.1, @chakra-ui/anatomy@npm:^2.2.1":
   version: 2.2.1
   resolution: "@chakra-ui/anatomy@npm:2.2.1"
   checksum: 5aed01cdab4cc5c277f67ef5f957fd7f7eac15243dd016acdd9d72a1c4f8069ecf128ec3e8028d5082663b89664822e336446f4951a95ef13d7237079ee8591d
@@ -2510,7 +2510,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/styled-system@npm:2.9.1":
+"@chakra-ui/styled-system@npm:2.9.1, @chakra-ui/styled-system@npm:^2.9.1":
   version: 2.9.1
   resolution: "@chakra-ui/styled-system@npm:2.9.1"
   dependencies:
@@ -2613,7 +2613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/theme-tools@npm:2.1.1":
+"@chakra-ui/theme-tools@npm:2.1.1, @chakra-ui/theme-tools@npm:^2.1.1":
   version: 2.1.1
   resolution: "@chakra-ui/theme-tools@npm:2.1.1"
   dependencies:
@@ -5409,6 +5409,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^20.8.10":
+  version: 20.8.10
+  resolution: "@types/node@npm:20.8.10"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: caaa3ae9294f1bfdacb029a916c64af63cbcea613a52f53ea86f93c91779859af177b2b68113ef835194519f5e76cadda08559929b68297f1a8a568c207f9f66
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.3
   resolution: "@types/normalize-package-data@npm:2.4.3"
@@ -5764,7 +5773,11 @@ __metadata:
     "@babel/core": "npm:^7.23.2"
     "@babel/preset-env": "npm:^7.23.2"
     "@babel/preset-react": "npm:^7.22.15"
+    "@babel/preset-typescript": "npm:^7.23.2"
+    "@chakra-ui/anatomy": "npm:^2.2.1"
     "@chakra-ui/react": "npm:^2.8.1"
+    "@chakra-ui/styled-system": "npm:^2.9.1"
+    "@chakra-ui/theme-tools": "npm:^2.1.1"
     "@emotion/react": "npm:^11.11.1"
     "@emotion/styled": "npm:^11.11.0"
     "@storybook/addon-essentials": "npm:^7.5.2"
@@ -5776,6 +5789,7 @@ __metadata:
     "@storybook/react-webpack5": "npm:^7.5.2"
     "@storybook/testing-library": "npm:^0.2.2"
     "@types/babel__core": "npm:^7"
+    "@types/node": "npm:^20.8.10"
     "@types/react": "npm:^18.2.33"
     "@types/react-dom": "npm:^18.2.14"
     framer-motion: "npm:^10.16.4"
@@ -5783,6 +5797,7 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     storybook: "npm:^7.5.2"
+    typescript: "npm:^5.2.2"
   languageName: unknown
   linkType: soft
 
@@ -12123,6 +12138,26 @@ __metadata:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: 6005cb31df50eef8b1f3c780eb71a17925f3038a100d82f9406ac2ad1de5eb59f8e6decbdc145b3a1f8e5836e17b0c0002fb698b9fe2516b8f9f9ff602d36412
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "typescript@npm:5.2.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 91ae3e6193d0ddb8656d4c418a033f0f75dec5e077ebbc2bd6d76439b93f35683936ee1bdc0e9cf94ec76863aa49f27159b5788219b50e1cd0cd6d110aa34b07
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
+  version: 5.2.2
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 062c1cee1990e6b9419ce8a55162b8dc917eb87f807e4de0327dbc1c2fa4e5f61bc0dd4e034d38ff541d1ed0479b53bcee8e4de3a4075c51a1724eb6216cb6f5
   languageName: node
   linkType: hard
 

@@ -21,4 +21,9 @@ type Repo = {
   branchCount: number;
 };
 
-export {SearchReposResponse, Repo}; 
+type RepoQueryParams = {
+  searchTerm: string;
+  resultLimit: number;
+}
+
+export {SearchReposResponse, Repo, RepoQueryParams}; 
