@@ -8606,7 +8606,7 @@ const RAW_RUNTIME_STATE =
           ["util", "npm:0.12.5"],\
           ["util-deprecate", "npm:1.0.2"],\
           ["webpack", "virtual:bbbce92a302bce1a01e80a4aff30935773c188acbf9fa5fce3b028f3cf8ddddcc1f94a3bcd7cb069e13cbdafb546b3973013056e035708698bce51d4e55db805#npm:5.89.0"],\
-          ["webpack-dev-middleware", "virtual:bbbce92a302bce1a01e80a4aff30935773c188acbf9fa5fce3b028f3cf8ddddcc1f94a3bcd7cb069e13cbdafb546b3973013056e035708698bce51d4e55db805#npm:6.1.1"],\
+          ["webpack-dev-middleware", "virtual:bbbce92a302bce1a01e80a4aff30935773c188acbf9fa5fce3b028f3cf8ddddcc1f94a3bcd7cb069e13cbdafb546b3973013056e035708698bce51d4e55db805#npm:6.1.2"],\
           ["webpack-hot-middleware", "npm:2.25.4"],\
           ["webpack-virtual-modules", "npm:0.5.0"]\
         ],\
@@ -18282,17 +18282,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["webpack-dev-middleware", [\
-      ["npm:6.1.1", {\
-        "packageLocation": "../../.yarn/berry/cache/webpack-dev-middleware-npm-6.1.1-abfeb0602d-10c0.zip/node_modules/webpack-dev-middleware/",\
+      ["npm:6.1.2", {\
+        "packageLocation": "../../.yarn/berry/cache/webpack-dev-middleware-npm-6.1.2-94f55d36c1-10c0.zip/node_modules/webpack-dev-middleware/",\
         "packageDependencies": [\
-          ["webpack-dev-middleware", "npm:6.1.1"]\
+          ["webpack-dev-middleware", "npm:6.1.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:bbbce92a302bce1a01e80a4aff30935773c188acbf9fa5fce3b028f3cf8ddddcc1f94a3bcd7cb069e13cbdafb546b3973013056e035708698bce51d4e55db805#npm:6.1.1", {\
-        "packageLocation": "./.yarn/__virtual__/webpack-dev-middleware-virtual-4cbf1d13f5/3/.yarn/berry/cache/webpack-dev-middleware-npm-6.1.1-abfeb0602d-10c0.zip/node_modules/webpack-dev-middleware/",\
+      ["virtual:bbbce92a302bce1a01e80a4aff30935773c188acbf9fa5fce3b028f3cf8ddddcc1f94a3bcd7cb069e13cbdafb546b3973013056e035708698bce51d4e55db805#npm:6.1.2", {\
+        "packageLocation": "./.yarn/__virtual__/webpack-dev-middleware-virtual-abee205163/3/.yarn/berry/cache/webpack-dev-middleware-npm-6.1.2-94f55d36c1-10c0.zip/node_modules/webpack-dev-middleware/",\
         "packageDependencies": [\
-          ["webpack-dev-middleware", "virtual:bbbce92a302bce1a01e80a4aff30935773c188acbf9fa5fce3b028f3cf8ddddcc1f94a3bcd7cb069e13cbdafb546b3973013056e035708698bce51d4e55db805#npm:6.1.1"],\
+          ["webpack-dev-middleware", "virtual:bbbce92a302bce1a01e80a4aff30935773c188acbf9fa5fce3b028f3cf8ddddcc1f94a3bcd7cb069e13cbdafb546b3973013056e035708698bce51d4e55db805#npm:6.1.2"],\
           ["@types/webpack", null],\
           ["colorette", "npm:2.0.20"],\
           ["memfs", "npm:3.6.0"],\
